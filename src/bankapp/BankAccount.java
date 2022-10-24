@@ -8,7 +8,7 @@ package bankapp;
  *
  * @author Lecturer
  */
-public class BankAccount {
+public abstract class BankAccount {
     int accountNumber;
     String accountName;
     int customerID;

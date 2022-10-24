@@ -8,6 +8,6 @@ package bankapp;
  *
  * @author Lecturer
  */
-public class Overdraft {
-    
+public interface Overdraft {
+    public boolean chargeInterest();
 }

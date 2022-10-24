@@ -7,7 +7,12 @@ package bankapp;
 /**
  *
  * @author Lecturer
+ * repo at:
+ * sweisscct/BankApp
  */
-public class CurrentAccount {
-    
+public class CurrentAccount extends BankAccount implements Overdraft{
+    @Override
+    public boolean chargeInterest() {
+        return true;
+    };
 }
