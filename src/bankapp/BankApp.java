@@ -6,7 +6,8 @@ package bankapp;
 
 /**
  *
- * @author Lecturer
+ * @author Sam Weiss
+ * @email sweiss@cct.ie
  */
 public class BankApp {
 
